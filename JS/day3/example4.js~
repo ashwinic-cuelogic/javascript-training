@@ -1,0 +1,4 @@
+var getDate = function(timestamp) {
+var date = new Date(timestamp);
+console.log(date);
+}

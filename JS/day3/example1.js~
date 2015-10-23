@@ -1,0 +1,10 @@
+'use strict';
+
+function calculatefactorial(number) {
+   if(number==0) {
+      return 1;
+   }
+   return number * fact(number-1);
+}
+
+console.log(calculatefactorial(6));
